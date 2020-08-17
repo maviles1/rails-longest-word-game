@@ -1,0 +1,49 @@
+body {
+  font-family: 'Alata', sans-serif;
+  background-color: #E5FFB9;
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  background-color: #E5E5E5;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.container h1 {
+  margin: auto;
+  padding: 10px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  top: 100px;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.big-container a{
+  color: black;
+  position: relative;
+  margin: auto;
+  top: 30px;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #FFAF8E;
+  border-radius: 15px;
+  transition: all 300ms;
+}
+
+.big-container a:hover{
+  background-color: #FF8E5F;
+}

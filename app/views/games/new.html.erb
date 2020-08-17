@@ -1,0 +1,10 @@
+<div class="container">
+
+  <h1> <%= @str %></h1>
+  <form action="/score" method="post">
+    <input type="text" name="entry">
+    <input type="submit" value="Submit">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    <%= hidden_field_tag :grid, @grid %>
+  </form>
+</div>
